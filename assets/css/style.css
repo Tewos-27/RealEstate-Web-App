@@ -306,18 +306,48 @@ border-radius: 4px;
   background-color: var(--primary-80);
 }
 
-
-
+/**
+icon-btn
+**/
+.icon-btn{
+  height: 40px;
+  width: 40px;
+  display: grid;
+  place-items: center;
+  background-color: var(--neutral-100);
+  color: var(--neutral-10);
+  border-radius: var(--radius-small);
+  box-shadow: var(--shadow-3);
+}
+.icon-btn:where(:hover, :focus-visible){
+  background-color: var(--neutral-90);
+}
 
 
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
 
-
-
-
-
+.navbar{
+  display: none;
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 4;
+}
+.header{
+  animation: slide_in 500ms ease forwards;
+  height: 72px;
+  background-color: var(--primary-40);
+}
+@keyframes slide_in{
+  0% { transform: translateY(-100%);}
+  100% { transform: translateY(0);}
+}
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
