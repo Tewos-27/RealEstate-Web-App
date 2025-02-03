@@ -328,9 +328,7 @@ icon-btn
   #HEADER
 \*-----------------------------------*/
 
-.navbar{
-  display: none;
-}
+
 .header{
   position: fixed;
   top: 0;
@@ -348,6 +346,66 @@ icon-btn
   0% { transform: translateY(-100%);}
   100% { transform: translateY(0);}
 }
+
+.header .container{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+
+}
+
+.nav-toggle-btn .close,
+.nav-toggle-btn.active .open {
+  display: none;
+}
+
+.nav-toggle-btn .close,
+.nav-toggle-btn.active .close {
+  display: block;
+}
+
+.navbar{
+  position: absolute;
+  top: 85;
+  right: 16px;
+  background-color: var(--neutral-100);
+  min-width: 260px;
+  padding: 10px;
+  border-radius: var(--radius-large);
+  visibility: hidden;
+  opacity: 0;
+  scale: 0.0;
+  transition: var(--transition-duration-quick) var(--transition-duration-quick);
+  transform-origin: top right;
+  z-index: 4;
+}
+
+.navbar.active {
+   visibility: visible;
+   opacity: 1;
+   scale: 1;
+}
+
+.navbar,
+.navbar-list,
+.navbar-wrapper{
+  display: grid;
+  gap: 8px;
+
+}
+.navbar-link,
+.btn-link{
+  color: var(--neutral-30);
+  padding: 6px 12px;
+  transition: var(--transition-duration-quick) var(--transition-duration-quick);
+}
+.btn-link{
+  border-block-start: 1px solid var(--neutral-90);
+  padding-block-start: 14px;
+}
+
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
