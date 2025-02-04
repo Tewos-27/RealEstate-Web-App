@@ -347,7 +347,14 @@ icon-btn
   100% { transform: translateY(0);}
 }
 
+.header .container{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 
+}
 
 .nav-toggle-btn .close,
 .nav-toggle-btn.active .open {
