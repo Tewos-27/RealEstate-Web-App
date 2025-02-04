@@ -342,7 +342,10 @@ icon-btn
   height: 72px;
   background-color: var(--primary-40);
 }
-
+@keyframes slide_in{
+  0% { transform: translateY(-100%);}
+  100% { transform: translateY(0);}
+}
 
 .header .container{
   position: relative;
