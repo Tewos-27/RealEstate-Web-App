@@ -406,7 +406,10 @@ icon-btn
   border-block-start: 1px solid var(--neutral-90);
   padding-block-start: 14px;
 }
-
+:is(.navbar-link, .btn-link):is(:hover, :focus-visible),
+.navbar-link.active{
+  color: var(--primary-100);
+}
 
 .navbar .btn{
   min-width: 80%;
