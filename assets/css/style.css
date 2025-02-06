@@ -465,10 +465,25 @@ icon-btn
 
 .search-item .search-item-field:where(:hover, :focus){
   background-color: var(--neutral-95);
-  
+
 }
 
+.search-item :where(.lable, .material-symbols-rounded){
+  position: absolute;
+  pointer-events: none;
+}
+.search-item .lable{
+  top: 12px;
+  left: 16px;
+  color: var(--neutral-5);
+}
 
+.search-item .material-symbols-rounded{
+  top: 50;
+  right: 16px;
+  translate: 0 -50%;
+  color: var(--primary-100);
+}
 
 
 /*-----------------------------------*\
