@@ -165,6 +165,7 @@ body{
   color: var(--neutral-5);
   font-size: var(--fs-body-medium);
   line-height: var(--ln-body-medium);
+  height: 300vh;
 }
 ::-webkit-scrollbar { width: 12px;}
 ::-webkit-scrollbar-track { background-color: var(--neutral-90);}
