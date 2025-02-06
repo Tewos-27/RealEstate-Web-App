@@ -456,34 +456,54 @@ icon-btn
 .search-item .search-item-field{
   height: 76px;
   padding: 40px 16px 12px;
-  border-radius: 12px;
-  transition: var(--transition-duration-quick) var(--transition-duration-quick);
+  border-radius: var(--radius-medium);
+  transition: var(--transition-duration-quick) var(--transition-easing-quick);
   cursor: pointer;
-
-
 }
 
 .search-item .search-item-field:where(:hover, :focus){
   background-color: var(--neutral-95);
 
 }
-
-.search-item :where(.lable, .material-symbols-rounded){
+  
+.search-item :where(.label, .material-symbols-rounded){
   position: absolute;
   pointer-events: none;
 }
-.search-item .lable{
+.search-item .label{
   top: 12px;
   left: 16px;
   color: var(--neutral-5);
 }
 
-.search-item .material-symbols-rounded{
-  top: 50;
+.search-item .material-symbols-rounded {
+  top: 50px; /* ✅ Add px */
   right: 16px;
   translate: 0 -50%;
   color: var(--primary-100);
 }
+
+
+.search-btn{
+  background: var(--primary-100);
+  color: var(--neutral-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  padding-inline: 24px;
+  gap: 12px;
+  border-radius: 12px;
+  transition: var(--transition-duration-quick) var(--transition-easing-quick);
+}
+
+.search-btn:where(:hover, :focus) {
+  background-color: var(--primary-80);
+}
+.search-btn:where(:active, :focus-visible){
+  background-color: var(--primary-70);
+}
+
 
 
 /*-----------------------------------*\
