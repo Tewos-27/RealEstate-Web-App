@@ -448,7 +448,25 @@ icon-btn
   box-shadow: var(--shadow-4);
 
 }
+.search-item{
+  position: relative;
+  color: var(--neutral-50);
 
+}
+.search-item .search-item-field{
+  height: 76px;
+  padding: 40px 16px 12px;
+  border-radius: 12px;
+  transition: var(--transition-duration-quick) var(--transition-duration-quick);
+  cursor: pointer;
+
+
+}
+
+.search-item .search-item-field:where(:hover, :focus){
+  background-color: var(--neutral-95);
+  
+}
 
 
 
