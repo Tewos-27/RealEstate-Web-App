@@ -461,9 +461,8 @@ icon-btn
   cursor: pointer;
 }
 
-.search-item .search-item-field:where(:hover, :focus){
-  background-color: var(--neutral-95);
-
+.search-item .search-item-field:where(:hover, :focus) {
+background-color: var(--neutral-95);
 }
   
 .search-item :where(.label, .material-symbols-rounded){
@@ -504,7 +503,16 @@ icon-btn
   background-color: var(--primary-70);
 }
 
-
+.hero .bg-pattern{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  right: 0;
+  translate: 0 -50%;
+  min-height: 100%;
+  pointer-events: none;
+  z-index: -2;
+}
 
 /*-----------------------------------*\
   #PROPERTY
