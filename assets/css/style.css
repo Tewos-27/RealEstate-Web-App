@@ -342,7 +342,30 @@ icon-btn
   background-color: var(--neutral-90);
 }
 
+/**
+Badge
+**/
 
+.badge{
+  height: 32px;
+  max-width: max-content;
+  display: grid;
+  place-items: center;
+  padding-inline: 16px;
+  background-color: var(--secondary-100);
+  border-radius: var(--radius-small);
+  box-shadow: var(--shadow-3);
+}
+
+/**
+Card
+**/
+.card{
+  border-radius: var(--radius-large);
+  overflow: hidden;
+  box-shadow: var(--shadow-2);
+  transition: var(--transition-duration-quick) var(--transition-easing-quick);
+}
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
