@@ -366,6 +366,18 @@ Card
   box-shadow: var(--shadow-2);
   transition: var(--transition-duration-quick) var(--transition-easing-quick);
 }
+
+.card:where(:hover, :focus-within){
+  box-shadow: var(--shadow-4);
+}
+
+.card-banner{
+  position: relative;
+}
+
+.card-banner .img-cover{
+  transition: var(--transition-duration-smooth) var(--transition-easing-quick);
+}
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
