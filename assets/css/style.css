@@ -393,9 +393,9 @@ Card
 }
 .card .icon-btn{
   right: 20px;
-  opacity: 0;
+  /*opacity: 0;
   visibility: hidden;
-  scale: 0.8;
+  scale: 0.8;*/
   transition: var(--transition-duration-quick) var(--transition-easing-quick);
 }
 
@@ -405,6 +405,11 @@ Card
 
 .fav-btn.active .material-symbols-rounded{
   font-variation-settings: 'FILL' 1;
+}
+.card:where(:hover, :focus-within) .icon-btn{
+  scale: 1;
+  opacity: 1;
+  visibility: visible;
 }
 /*-----------------------------------*\
   #HEADER
