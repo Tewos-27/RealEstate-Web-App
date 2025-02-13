@@ -378,6 +378,19 @@ Card
 .card-banner .img-cover{
   transition: var(--transition-duration-smooth) var(--transition-easing-quick);
 }
+.card:where(:hover, :focus-within) .img-cover {
+  scale: 1.05;
+  rotate: 2deg;
+}
+
+.card:where(.badge, .icon-btn){
+  position: absolute;
+  top: 20px;
+}
+
+.card .badge{
+  
+}
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
