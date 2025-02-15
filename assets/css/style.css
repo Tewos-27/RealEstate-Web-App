@@ -646,7 +646,9 @@ background-color: var(--neutral-95);
 }
 
 .property .section-text{
-  
+margin-block: 8px 16px;
+color: var(--neutral-30);
+
 }
 
 
