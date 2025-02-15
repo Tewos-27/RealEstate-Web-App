@@ -427,6 +427,20 @@ Card
 .card-title:where(:hover, :focus-visible){
   color: var(--primary-100);
 }
+
+.card-tex{
+  color: var(--neutral-40);
+}
+.card-meta-list{
+  padding-block-start: 16px;
+  margin-block-start: 16px;
+  border-block-start: 1px solid var(--neutral-90);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
