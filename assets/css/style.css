@@ -641,7 +641,13 @@ background-color: var(--neutral-95);
   #PROPERTY
 \*-----------------------------------*/
 
+.property{
+  padding-block-start: 60px;
+}
 
+.property .section-text{
+  
+}
 
 
 
