@@ -441,6 +441,13 @@ Card
   flex-wrap: wrap;
   gap: 12px;
 }
+
+.card .meta-item{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--neutral-20);
+}
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
