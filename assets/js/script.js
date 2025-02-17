@@ -21,3 +21,14 @@ window.addEventListener("scroll", e => {
     $header.classList[window.scrollY > 50 ? "add" : "remove"]("active");
     
 })
+
+/**add to favorite button toggle */
+
+const $toggleBtns = document.querySelectorAll("[data-toggle-btn]");
+
+$toggleBtns.forEach($toggleBtn => {
+    $toggleBtn.addEventListener("click", () => {
+        $toggleBtn.classList.toggle("active");
+        
+    })
+})
