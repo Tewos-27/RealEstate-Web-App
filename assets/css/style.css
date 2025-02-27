@@ -667,6 +667,13 @@ color: var(--neutral-30);
   border-radius: var(--radius-extra-large);
 }
 
+.feature-content{
+  padding: 24px 10px 0;
+}
+.feature-content .feature-text{
+margin-block: 16px;
+}
+
 
 
 /*-----------------------------------*\
