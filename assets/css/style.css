@@ -687,6 +687,11 @@ margin-block: 16px;
   gap: 8px;
 }
 
+.feature-icon{
+  color: var(--primary-100);
+  font-size: 2.2rem;
+}
+
 
 /*-----------------------------------*\
   #VIDEO
