@@ -708,9 +708,9 @@ margin-block: 16px;
 }
 
 .play-btn{
-  
+   width: 72px;
+   height: 72px;
 }
-
 
 /*-----------------------------------*\
   #STORY
