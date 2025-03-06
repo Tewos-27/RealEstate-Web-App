@@ -713,6 +713,7 @@ margin-block: 16px;
    display: grid;
    place-items: center;
    background-color: var(--neutral-100);
+   color: var(--primary-100);
 }
 
 /*-----------------------------------*\
