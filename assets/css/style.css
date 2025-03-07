@@ -714,6 +714,8 @@ margin-block: 16px;
    place-items: center;
    background-color: var(--neutral-100);
    color: var(--primary-100);
+   border-radius: var(--radius-circle);
+   animation: pulse ;
 }
 
 /*-----------------------------------*\
