@@ -718,6 +718,9 @@ margin-block: 16px;
    animation: pulse 1.5s var(--transition-easing-quick) forwards infinite;
 }
 
+@keyframes pulse {
+  0% { box-shadow: ;}
+}
 /*-----------------------------------*\
   #STORY
 \*-----------------------------------*/
