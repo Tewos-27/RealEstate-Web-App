@@ -719,7 +719,9 @@ margin-block: 16px;
 }
 
 @keyframes pulse {
-  0% { box-shadow: ;}
+  0% { box-shadow: 0 0 0 0 #ffffff80;}
+  100% { box-shadow: 0 0 0 0 #ffffff80;}
+  
 }
 /*-----------------------------------*\
   #STORY
