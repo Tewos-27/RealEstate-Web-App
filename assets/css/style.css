@@ -722,7 +722,6 @@ margin-block: 16px;
   0% { box-shadow: 0 0 0 0 #ffffff80;}
   100% { box-shadow: 0 0 0 20px #ffffff80;}
 }
-
 .play-btn .matterial-symbol-rounded{
   font-size: 4rem;
   font-variation-settings: 'FILL' 1;
