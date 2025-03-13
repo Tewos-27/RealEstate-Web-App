@@ -734,7 +734,9 @@ margin-block: 16px;
   color: var(--primary-100);
 }
 
-.story .
+.story .section-title{
+  margin-block: 12px;
+}
 
 
 /*-----------------------------------*\
