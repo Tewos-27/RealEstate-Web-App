@@ -730,7 +730,11 @@ margin-block: 16px;
   #STORY
 \*-----------------------------------*/
 
+.story .section-subtitle{
+  color: var(--primary-100);
+}
 
+.story .
 
 
 /*-----------------------------------*\
