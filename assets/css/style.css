@@ -741,6 +741,13 @@ margin-block: 16px;
   display: flex;
 }
 
+.avatar{
+  position: relative;
+  width: 60px;
+  height: 46px;
+  
+}
+
 
 /*-----------------------------------*\
   #FOOTER
