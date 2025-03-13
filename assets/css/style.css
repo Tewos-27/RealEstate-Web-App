@@ -737,6 +737,9 @@ margin-block: 16px;
 .story .section-title{
   margin-block: 12px;
 }
+.avatar-list{
+  display: flex;
+}
 
 
 /*-----------------------------------*\
