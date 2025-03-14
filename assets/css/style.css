@@ -750,6 +750,9 @@ margin-block: 16px;
   border: 3px solid var(--neutral-90);
   overflow: hidden;
 }
+.avatar:not(:first-child){
+  margin-inline-start: -10px;
+}
 
 /*-----------------------------------*\
   #FOOTER
