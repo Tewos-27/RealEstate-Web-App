@@ -757,7 +757,6 @@ margin-block: 16px;
   position: absolute;
   inset: 0;
   display: grid;
-  display: flex;
   place-items: center;
   background-color: #000000BF;
   color: var(--neutral-100);
