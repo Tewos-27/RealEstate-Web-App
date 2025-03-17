@@ -759,7 +759,7 @@ margin-block: 16px;
   display: grid;
   place-items: center;
   background-color: #000000BF;
-  color: var(--neutral-100);
+  
 }
 
 /*-----------------------------------*\
