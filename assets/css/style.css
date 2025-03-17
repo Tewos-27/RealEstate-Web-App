@@ -751,7 +751,7 @@ margin-block: 16px;
   overflow: hidden;
 }
 .avatar:not(:first-child){
-  margin-inline-start: -10px;
+  margin-inline-start: -20px;
 }
 .avatar .overlay-content{
   position: absolute;
