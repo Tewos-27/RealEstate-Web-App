@@ -748,7 +748,7 @@ margin-block: 16px;
   height: 46px;
   border-radius: var(--radius-full);
   border: 3px solid var(--neutral-90);
-  overflow: hidden;
+  overflow: visible;
 }
 .avatar:not(:first-child){
   margin-inline-start: -10px;
