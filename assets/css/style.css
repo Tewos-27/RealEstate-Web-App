@@ -754,7 +754,7 @@ margin-block: 16px;
   margin-inline-start: -10px;
 }
 .avatar .overlay-content{
-  position: absolute;
+  position: flex;
   inset: 0;
   display: grid;
   place-items: center;
