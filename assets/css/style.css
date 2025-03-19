@@ -763,7 +763,12 @@ margin-block: 16px;
 }
 
 .story .title-wrapper{
-  
+  display: grid;
+  gap: 16px;
+}
+
+.story-list{
+  display: grid;
 }
 /*-----------------------------------*\
   #FOOTER
