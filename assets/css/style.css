@@ -551,7 +551,6 @@ Card
   padding-block: 130px 60px;
   overflow: hidden;
   isolation: isolate;
-
 }
 
 .hero-title{
@@ -692,7 +691,6 @@ margin-block: 16px;
   font-size: 2.2rem;
 }
 
-
 /*-----------------------------------*\
   #VIDEO
 \*-----------------------------------*/
@@ -777,6 +775,8 @@ margin-block: 16px;
   height: 368px;
   background-repeat: no-repeat;
 }
+
+
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
