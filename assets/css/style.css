@@ -785,6 +785,11 @@ margin-block: 16px;
   scale: 0.99;
 }
 
+.story-card .overlay-content{
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #00000000 33.33%, #000000cc -100%);
+}
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
