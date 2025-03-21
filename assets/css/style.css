@@ -765,7 +765,10 @@ margin-block: 16px;
   gap: 16px;
 }
 
-
+.story-list{
+  display: grid;
+  gap: 16px;
+}
 
 .story-card{
   position: relative;
