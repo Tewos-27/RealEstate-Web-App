@@ -774,7 +774,13 @@ margin-block: 16px;
   position: relative;
   height: 368px;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--radius-large);
+  overflow: hidden;
+  transition: var(--transition-duration-quick) var(--transition-easing-quick);
 }
+
 
 
 /*-----------------------------------*\
