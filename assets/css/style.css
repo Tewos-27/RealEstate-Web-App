@@ -603,7 +603,6 @@ background-color: var(--neutral-95);
   color: var(--primary-100);
 }
 
-
 .search-btn{
   background: var(--primary-100);
   color: var(--neutral-100);
@@ -790,6 +789,7 @@ margin-block: 16px;
   inset: 0;
   background: linear-gradient(180deg, #00000000 33.33%, #000000cc -100%);
 }
+
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
