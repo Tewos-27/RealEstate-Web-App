@@ -780,7 +780,9 @@ margin-block: 16px;
   transition: var(--transition-duration-quick) var(--transition-easing-quick);
 }
 
-
+.story-card:where(:hover, :focus-visible){
+  scale: 0.99;
+}
 
 .story-card .overlay-content{
   position: absolute;
