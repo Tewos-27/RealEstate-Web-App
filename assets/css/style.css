@@ -795,6 +795,15 @@ margin-block: 16px;
   padding: 24px;
 }
 
+.story-card .rating-wrapper{
+  display: flex;
+  align-items: center;
+  margin-block-start: 8px;
+}
+.story-card .rating-text{
+  margin-inline-start: 12px;
+  color: var(--neutral-80);
+}
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
