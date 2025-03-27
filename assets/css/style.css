@@ -808,6 +808,13 @@ margin-block: 16px;
   font-variation-settings: 'FILL' 1;
   color: var(--yellow);
 }
+.story-card .card-avatar{
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-circle);
+  box-shadow: var(--shadow-3);
+  overflow: hidden;
+}
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
