@@ -820,6 +820,11 @@ margin-block: 16px;
   #FOOTER
 \*-----------------------------------*/
 
+.footer{
+  background-color: var(--primary-20);
+  color: var(--neutral-90);
+
+}
 
 
 /*-----------------------------------*\
