@@ -832,7 +832,9 @@ margin-block: 16px;
   gap: 24px;
 }
 
-
+.footer-text{
+  margin-block: 16px;
+}
 
 /*-----------------------------------*\
   #MEDIA QUERIES
