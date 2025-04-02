@@ -826,6 +826,13 @@ margin-block: 16px;
 
 }
 
+.footer-top .container{
+  padding-block: 60px;
+  display: grid;
+  gap: 24px;
+}
+
+
 
 /*-----------------------------------*\
   #MEDIA QUERIES
