@@ -836,6 +836,15 @@ margin-block: 16px;
   margin-block: 16px;
 }
 
+.footer-list-title{
+  margin-block-end: 16px;
+  gap: 16px;
+}
+
+.footer-link{
+  transition: var(--transition-duration-quick) var(--transition-easing-quick);
+}
+
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
