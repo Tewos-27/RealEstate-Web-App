@@ -845,6 +845,14 @@ margin-block: 16px;
   transition: var(--transition-duration-quick) var(--transition-easing-quick);
 }
 
+.footer-link:where(:hover, :focus-visible) {
+  color: var(--primary-100);
+}
+
+.social-list{
+  display: flex;
+  gap: 16px;
+}
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
