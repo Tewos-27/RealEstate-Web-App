@@ -919,3 +919,13 @@ Reused style
   margin-block-end: 48px;
 }
  
+/* hero */
+.hero{
+  padding-block: 160px 108px;
+}
+
+.search-bar{
+  grid-template-columns: 160px 160px 1fr max-content;
+  gap: 0;
+}
+
