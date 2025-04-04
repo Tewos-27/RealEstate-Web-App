@@ -865,6 +865,24 @@ margin-block: 16px;
 }
 
 
+
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
+
+/* 
+responsiveness for larger than 768 pxscreen
+*/
+
+@media (min-width: 768px){
+   
+  /* 
+  
+  Custome property*/
+}
+
+:root{
+  /* 
+  typography
+  */
+}
