@@ -913,5 +913,9 @@ Reused style
 .title-wrapper,
 .story .title-wrapper{
   display: grid;
-  
+  grid-template-columns: 1fr max-content;
+  align-items: center;
+  gap: 40px;
+  margin-block-end: 48px;
 }
+ 
