@@ -885,4 +885,11 @@ responsiveness for larger than 768 pxscreen
   /* 
   typography
   */
+
+  /* font size
+   */
+
+   --fs-headline-large: 5.2rem;
+   --fs-headline-medium: 4rem;
+   
 }
