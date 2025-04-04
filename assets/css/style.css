@@ -900,5 +900,18 @@ responsiveness for larger than 768 pxscreen
    --lh-headline-large: 64px;
    --lh-headline-medium: 52px;
    --lh-headline-small: 48px;
-   
+
+}
+
+/* 
+Reused style
+*/
+
+.container { max-width: 720px;}
+
+.section { padding-block-end: 88px; }
+.title-wrapper,
+.story .title-wrapper{
+  display: grid;
+  
 }
