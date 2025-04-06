@@ -931,4 +931,10 @@ Reused style
 .search-item .material-symbols-rounded{
   display: none;
 }
-
+.search-item:not(:last-of-type)::after{
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: 100%;
+  bottom: 16px;
+}
