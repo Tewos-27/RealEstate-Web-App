@@ -943,4 +943,15 @@ Reused style
 
 .search-btn{
   height: 100%;
+  margin-inline-start: 8px;
+}
+
+/*
+property
+*/.property{
+  padding-block-start: 80px;
+}
+
+.property .section-text{
+  margin-block-end: 0;
 }
