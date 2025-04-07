@@ -955,3 +955,17 @@ property
 .property .section-text{
   margin-block-end: 0;
 }
+
+/* 
+Feature
+*/
+
+.feature-content{
+  padding-block-start: 32px;
+}
+
+.feature-content .feature-text{
+  margin-block: 16px 24px;
+  line-height: 28px;
+  
+}
