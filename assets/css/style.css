@@ -937,4 +937,10 @@ Reused style
   top: 16px;
   left: 100%;
   bottom: 16px;
+  width: 1px;
+  background-color: var(--neutral-90);
+}
+
+.search-btn{
+  height: 100%;
 }
