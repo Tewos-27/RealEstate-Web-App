@@ -981,3 +981,17 @@ Feature
   grid-template-columns: 1fr 1fr;
   gap: 16px;
 }
+
+/* 
+Video Update
+*/
+
+.video-card{
+  height: 400px;
+}
+
+.play-btn{
+
+  width: 96px;
+  height: 96px;
+}
