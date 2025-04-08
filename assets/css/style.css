@@ -969,3 +969,8 @@ Feature
   line-height: 28px;
   
 }
+
+.feature-list{
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
