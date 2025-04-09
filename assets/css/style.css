@@ -1007,3 +1007,12 @@ Story
 .story .section-title{
   margin-block: 16px;
 }
+
+.avatar{
+  width: 88px;
+  height: 60px;
+}
+
+.story-list{
+  grid-template-columns: 1fr 1fr;
+}
