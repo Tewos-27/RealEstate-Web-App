@@ -999,3 +999,11 @@ Video Update
 .play-btn .material-symbols-rounded{
   font-size: 4.8rem;
 }
+
+/* 
+Story
+*/
+
+.story .section-title{
+  margin-block: 16px;
+}
