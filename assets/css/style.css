@@ -995,3 +995,7 @@ Video Update
   width: 96px;
   height: 96px;
 }
+
+.play-btn .material-symbols-rounded{
+  font-size: 4.8rem;
+}
