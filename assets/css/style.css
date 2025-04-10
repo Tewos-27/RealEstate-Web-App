@@ -1045,6 +1045,9 @@ responsiveness for larger than 768 pxscreen
   Custom property
   */
   :root{
+    /* 
+    Typography
+    */
     --fs-body-large: 1.8rem;
     
   }
