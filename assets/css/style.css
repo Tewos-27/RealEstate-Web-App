@@ -1048,8 +1048,12 @@ responsiveness for larger than 768 pxscreen
     /* 
     Typography
     */
+
+    /* font size */
     --fs-body-large: 1.8rem;
     
+    /* line height */
+    --lh-body-large: 32px;
   }
 
 }
