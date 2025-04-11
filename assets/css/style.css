@@ -1056,4 +1056,27 @@ responsiveness for larger than 768 pxscreen
     --lh-body-large: 32px;
   }
 
+  /* 
+  Reused Style
+  */
+  .container {
+    max-width: 958px;
+  }
+  
+  /* 
+  Header
+  */
+
+  .nav-toggle-btn{
+    display: none;
+  }
+
+  .navbar,
+  .navbar-list,
+  .navbar-wrapper{
+    all: unset;
+    display: flex;
+    
+  }
+
 }
