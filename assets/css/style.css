@@ -1092,4 +1092,12 @@ responsiveness for larger than 768 pxscreen
     color: var(--neutral-80);
     line-height: 48px;
   }
+
+  .navbar-link{
+
+    padding: 0 24px;
+
+  }
+  :is(.navbar-link, .btn-link):is(:hover, :focus-visible),
+  .navbar-link.active{ color: var(--neutral-100);}
 }
