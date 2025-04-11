@@ -1100,4 +1100,14 @@ responsiveness for larger than 768 pxscreen
   }
   :is(.navbar-link, .btn-link):is(:hover, :focus-visible),
   .navbar-link.active{ color: var(--neutral-100);}
+
+  .navbar-link.active{
+    position: relative;
+  }
+
+  .navbar-link.active::before{
+   content: "";
+   position: absolute;
+   left: 50%;
+  }
 }
