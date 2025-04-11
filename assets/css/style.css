@@ -1076,7 +1076,20 @@ responsiveness for larger than 768 pxscreen
   .navbar-wrapper{
     all: unset;
     display: flex;
-    
+    align-items: center;
+  }
+   
+  .navbar,
+  .navbar-list{
+    flex-grow: 1;
+  }
+  .navbar-list{
+    justify-content: center;
   }
 
+  .navbar-link,
+  .btn-link{
+    color: var(--neutral-80);
+    line-height: 48px;
+  }
 }
