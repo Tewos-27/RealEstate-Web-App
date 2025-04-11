@@ -1109,5 +1109,11 @@ responsiveness for larger than 768 pxscreen
    content: "";
    position: absolute;
    left: 50%;
+   translate: -50% 0;
+   bottom: 8px;
+   width: 4px;
+   height: 4px;
+   border-radius: var(--radius-circle);
+   background-color: var(--neutral-100);
   }
 }
