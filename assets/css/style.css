@@ -1138,5 +1138,11 @@ responsiveness for larger than 768 pxscreen
     grid-template-columns: repeat(12, 1fr);
     gap: 20px;
   }
-
+  .hero-content{
+    grid-column: 1 / 7;
+  }
+  .search-bar{
+    min-width: max-content;
+    grid-template-columns: 160px 220px 1fr max-content;
+  }
 }
