@@ -1129,4 +1129,11 @@ responsiveness for larger than 768 pxscreen
   .navbar-wrapper{
     gap: 24px;
   }
+   
+  /* 
+  Hero
+  */
+  .hero .container{
+    display: grid;
+  }
 }
