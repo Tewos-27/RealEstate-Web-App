@@ -1135,5 +1135,8 @@ responsiveness for larger than 768 pxscreen
   */
   .hero .container{
     display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
   }
+
 }
