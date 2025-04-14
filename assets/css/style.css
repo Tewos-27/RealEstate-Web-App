@@ -1145,4 +1145,5 @@ responsiveness for larger than 768 pxscreen
     min-width: max-content;
     grid-template-columns: 160px 220px 1fr max-content;
   }
+  
 }
