@@ -1170,4 +1170,25 @@ responsiveness for larger than 768 pxscreen
     max-width: 720px;
     z-index: -1;
   }
+
+  /* 
+  Property
+  */
+
+  .property .section-text{
+    max-width: 640px;
+  }
+
+  /* 
+  Feature
+  */
+  .feature .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .feature-content{
+    padding: 48px;
+  }
 }
