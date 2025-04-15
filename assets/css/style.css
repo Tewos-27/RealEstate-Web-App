@@ -1036,7 +1036,7 @@ footer
 }
 
 /* 
-responsiveness for larger than 768 pxscreen
+responsiveness for larger than 992 pxscreen
 */
 
 @media (min-width: 992px){
@@ -1202,5 +1202,32 @@ responsiveness for larger than 768 pxscreen
 
   .feature-2 .feature-banner{
     order: 1;
+  }
+
+}
+
+
+/* 
+responsiveness for larger than 1440 pxscreen
+*/
+
+@media (min-width: 1440px){
+
+  /* 
+  Custom property
+  */
+  :root{
+    /* 
+    typography
+    */
+
+    /* font size */
+
+    --fs-headline-large: 7.2rem;
+    --fs-headline-medium: 5.4rem;
+
+    /* line height */
+    --lh-headline-large: 92px;
+    --lh-headline-medium: 72px;
   }
 }
