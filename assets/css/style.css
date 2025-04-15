@@ -1259,4 +1259,16 @@ responsiveness for larger than 1440 pxscreen
   .hero .bg-pattern{
     left: 36%;
   }
+
+  /* 
+  feature
+  */
+
+  .feature-content{
+    padding: 60px;
+  }
+  .feature-list{
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
 }
