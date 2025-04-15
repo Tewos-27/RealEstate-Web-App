@@ -1191,4 +1191,16 @@ responsiveness for larger than 768 pxscreen
   .feature-content{
     padding: 48px;
   }
+
+  .feature-list{
+    grid-template-columns: 1fr;
+  }
+
+  .feature-banner{
+    aspect-ratio: auto;
+  }
+
+  .feature-2 .feature-banner{
+    order: 1;
+  }
 }
