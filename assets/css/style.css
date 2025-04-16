@@ -1283,5 +1283,7 @@ responsiveness for larger than 1440 pxscreen
     grid-template-columns: repeat(12, 1fr);
   }
 
-
+  .story-card:where(:nth-child(1), :nth-child(6)){
+    grid-column: span 3;
+  }
 }
