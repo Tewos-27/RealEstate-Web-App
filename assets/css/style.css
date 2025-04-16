@@ -1271,5 +1271,17 @@ responsiveness for larger than 1440 pxscreen
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
+  
+  /* 
+  Story
+  */
+
+  .story .section-title{
+    max-width: 820px;
+  }
+  .story-list{
+    grid-template-columns: repeat(12, 1fr);
+  }
+
 
 }
