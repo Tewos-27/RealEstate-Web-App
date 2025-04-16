@@ -1294,4 +1294,16 @@ responsiveness for larger than 1440 pxscreen
   .story-card:where(:nth-child(2), :nth-child(4)){
     grid-column: span 5;
   }
+
+  /* 
+  Footer
+  */
+
+  .footer-brand{
+    grid-column: auto;
+  }
+
+  .footer-top .container{
+    grid-template-columns: 580px repeat(3, 1fr);
+  }
 }
