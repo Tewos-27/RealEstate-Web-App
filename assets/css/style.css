@@ -1286,4 +1286,8 @@ responsiveness for larger than 1440 pxscreen
   .story-card:where(:nth-child(1), :nth-child(6)){
     grid-column: span 3;
   }
+
+  .story-card:where(:nth-child(2), :nth-child(4)){
+    grid-column: span 4;
+  }
 }
