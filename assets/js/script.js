@@ -16,7 +16,7 @@ window.addEventListener("scroll", e => {
 
 /*add to favorite button toggle */
 
-
+const $toggleBtns = document.querySelectorAll("[data-toggle-btn]");
 
 $toggleBtns.forEach($toggleBtn => {
     $toggleBtn.addEventListener("click", () => {
