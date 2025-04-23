@@ -1234,15 +1234,12 @@ responsiveness for larger than 1440 pxscreen
   /* 
   reused style
   */
-
   .container {
     max-width: 1460px;
-
   }
   /* 
   Hero
   */
-
   .hero .container{
     min-height: 580px;
     align-items: centrer;
