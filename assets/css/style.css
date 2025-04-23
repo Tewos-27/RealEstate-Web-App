@@ -1239,10 +1239,10 @@ responsiveness for larger than 1440 pxscreen
     max-width: 1460px;
 
   }
-
   /* 
   Hero
   */
+
   .hero .container{
     min-height: 580px;
     align-items: centrer;
@@ -1259,11 +1259,9 @@ responsiveness for larger than 1440 pxscreen
   .hero .bg-pattern{
     left: 36%;
   }
-
   /* 
   feature
   */
-
   .feature-content{
     padding: 60px;
   }
@@ -1271,11 +1269,9 @@ responsiveness for larger than 1440 pxscreen
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
-  
   /* 
   Story
   */
-
   .story .section-title{
     max-width: 820px;
   }
