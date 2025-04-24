@@ -652,11 +652,9 @@ color: var(--neutral-30);
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fx));
   gap: 16px;
 }
-
 /*-----------------------------------*\
   #FEATURE
 \*-----------------------------------*/
-
 .feature-banner{
   aspect-ratio: 3 / 2;
   overflow: hidden;
