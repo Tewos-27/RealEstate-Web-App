@@ -602,7 +602,6 @@ background-color: var(--neutral-95);
   translate: 0 -50%;
   color: var(--primary-100);
 }
-
 .search-btn{
   background: var(--primary-100);
   color: var(--neutral-100);
@@ -615,7 +614,6 @@ background-color: var(--neutral-95);
   border-radius: 12px;
   transition: var(--transition-duration-quick) var(--transition-easing-quick);
 }
-
 .search-btn:where(:hover, :focus) {
   background-color: var(--primary-80);
 }
