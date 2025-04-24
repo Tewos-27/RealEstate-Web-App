@@ -698,7 +698,7 @@ margin-block: 16px;
   height: 260px;
   border-radius: 32px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
-              url('../images/video-card.jpg');
+  url('../images/video-card.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
